@@ -63,6 +63,46 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap andrey_ilkevich_Qvnohn4GyJA_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("andrey-ilkevich-Qvnohn4GyJA-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brett_jordan_aKYu_H5pHJY_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("brett-jordan-aKYu-H5pHJY-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap christine_von_raesfeld_Yk_PH1wFHQU_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("christine-von-raesfeld-Yk-PH1wFHQU-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eiliv_aceron_d5PbKQJ0Lu8_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("eiliv-aceron-d5PbKQJ0Lu8-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap grilled_beef_burger_with_fries_cheese_tomato_generative_ai {
             get {
                 object obj = ResourceManager.GetObject("grilled-beef-burger-with-fries-cheese-tomato-generative-ai", resourceCulture);
@@ -86,6 +126,26 @@ namespace UI.Properties {
         internal static System.Drawing.Bitmap hamburger_5630646_1280 {
             get {
                 object obj = ResourceManager.GetObject("hamburger-5630646_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap laura_mitulla_7Zlds3gm7NU_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("laura-mitulla-7Zlds3gm7NU-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logan_weaver_lgnwvr_qgZRZI_pKgM_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("logan-weaver-lgnwvr-qgZRZI-pKgM-unsplash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

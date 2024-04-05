@@ -3,23 +3,37 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\ai-generated-8584363_640.jpg" />
+    <None Remove="Assets\andrey-ilkevich-Qvnohn4GyJA-unsplash.jpg" />
+    <None Remove="Assets\brett-jordan-aKYu-H5pHJY-unsplash.jpg" />
     <None Remove="Assets\burger.png" />
+    <None Remove="Assets\christine-von-raesfeld-Yk-PH1wFHQU-unsplash.jpg" />
+    <None Remove="Assets\eiliv-aceron-d5PbKQJ0Lu8-unsplash.jpg" />
     <None Remove="Assets\grilled-beef-burger-with-fries-cheese-tomato-generative-ai.jpg" />
     <None Remove="Assets\hamburger-1238246_640.jpg" />
     <None Remove="Assets\hamburger-5630646_1280.jpg" />
+    <None Remove="Assets\laura-mitulla-7Zlds3gm7NU-unsplash.jpg" />
+    <None Remove="Assets\logan-weaver-lgnwvr-qgZRZI-pKgM-unsplash.jpg" />
     <None Remove="Assets\online-order.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\ai-generated-8584363_640.jpg" />
+    <Resource Include="Assets\andrey-ilkevich-Qvnohn4GyJA-unsplash.jpg" />
+    <Resource Include="Assets\brett-jordan-aKYu-H5pHJY-unsplash.jpg" />
+    <Resource Include="Assets\christine-von-raesfeld-Yk-PH1wFHQU-unsplash.jpg" />
+    <Resource Include="Assets\eiliv-aceron-d5PbKQJ0Lu8-unsplash.jpg" />
     <Resource Include="Assets\grilled-beef-burger-with-fries-cheese-tomato-generative-ai.jpg" />
     <Resource Include="Assets\hamburger-1238246_640.jpg" />
     <Resource Include="Assets\hamburger-5630646_1280.jpg" />
+    <Resource Include="Assets\laura-mitulla-7Zlds3gm7NU-unsplash.jpg" />
+    <Resource Include="Assets\logan-weaver-lgnwvr-qgZRZI-pKgM-unsplash.jpg" />
     <Resource Include="Assets\online-order.png" />
   </ItemGroup>
 
