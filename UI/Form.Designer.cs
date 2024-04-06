@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form));
-            SSB = new PictureBox();
-            FKB = new PictureBox();
-            FFB = new PictureBox();
+            p7 = new PictureBox();
+            p8 = new PictureBox();
+            p9 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -39,59 +39,60 @@
             label5 = new Label();
             label6 = new Label();
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
+            p1 = new PictureBox();
+            p2 = new PictureBox();
+            p3 = new PictureBox();
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
+            p6 = new PictureBox();
+            p5 = new PictureBox();
+            p4 = new PictureBox();
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
-            ((System.ComponentModel.ISupportInitialize)SSB).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)FKB).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)FFB).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p9).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)p4).BeginInit();
             SuspendLayout();
             // 
-            // SSB
+            // p7
             // 
-            SSB.Image = Properties.Resources.hamburger_5630646_1280;
-            SSB.Location = new Point(6, 0);
-            SSB.Name = "SSB";
-            SSB.Size = new Size(435, 289);
-            SSB.SizeMode = PictureBoxSizeMode.Zoom;
-            SSB.TabIndex = 0;
-            SSB.TabStop = false;
+            p7.BackColor = SystemColors.ActiveBorder;
+            p7.Image = Properties.Resources.hamburger_5630646_1280;
+            p7.Location = new Point(6, 0);
+            p7.Name = "p7";
+            p7.Size = new Size(435, 289);
+            p7.SizeMode = PictureBoxSizeMode.Zoom;
+            p7.TabIndex = 0;
+            p7.TabStop = false;
             // 
-            // FKB
+            // p8
             // 
-            FKB.Image = (Image)resources.GetObject("FKB.Image");
-            FKB.Location = new Point(515, 0);
-            FKB.Name = "FKB";
-            FKB.Size = new Size(386, 289);
-            FKB.SizeMode = PictureBoxSizeMode.Zoom;
-            FKB.TabIndex = 1;
-            FKB.TabStop = false;
+            p8.Image = (Image)resources.GetObject("p8.Image");
+            p8.Location = new Point(515, 0);
+            p8.Name = "p8";
+            p8.Size = new Size(386, 289);
+            p8.SizeMode = PictureBoxSizeMode.Zoom;
+            p8.TabIndex = 1;
+            p8.TabStop = false;
             // 
-            // FFB
+            // p9
             // 
-            FFB.Image = Properties.Resources.hamburger_1238246_640;
-            FFB.Location = new Point(976, 0);
-            FFB.Name = "FFB";
-            FFB.Size = new Size(387, 289);
-            FFB.SizeMode = PictureBoxSizeMode.Zoom;
-            FFB.TabIndex = 2;
-            FFB.TabStop = false;
+            p9.Image = Properties.Resources.hamburger_1238246_640;
+            p9.Location = new Point(976, 0);
+            p9.Name = "p9";
+            p9.Size = new Size(387, 289);
+            p9.SizeMode = PictureBoxSizeMode.Zoom;
+            p9.TabIndex = 2;
+            p9.TabStop = false;
             // 
             // label1
             // 
@@ -150,52 +151,52 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveBorder;
-            panel1.Controls.Add(FKB);
+            panel1.Controls.Add(p8);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(SSB);
+            panel1.Controls.Add(p7);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(FFB);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label2);
+            panel1.Controls.Add(p9);
             panel1.Location = new Point(24, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(1369, 363);
             panel1.TabIndex = 9;
             // 
-            // pictureBox1
+            // p1
             // 
-            pictureBox1.Image = Properties.Resources.eiliv_aceron_d5PbKQJ0Lu8_unsplash;
-            pictureBox1.Location = new Point(135, 381);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(180, 267);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
-            pictureBox1.WaitOnLoad = true;
+            p1.Image = Properties.Resources.eiliv_aceron_d5PbKQJ0Lu8_unsplash;
+            p1.Location = new Point(135, 381);
+            p1.Name = "p1";
+            p1.Size = new Size(180, 267);
+            p1.SizeMode = PictureBoxSizeMode.Zoom;
+            p1.TabIndex = 10;
+            p1.TabStop = false;
+            p1.WaitOnLoad = true;
             // 
-            // pictureBox2
+            // p2
             // 
-            pictureBox2.Image = Properties.Resources.christine_von_raesfeld_Yk_PH1wFHQU_unsplash;
-            pictureBox2.Location = new Point(539, 381);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(386, 267);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 11;
-            pictureBox2.TabStop = false;
-            pictureBox2.WaitOnLoad = true;
+            p2.Image = Properties.Resources.christine_von_raesfeld_Yk_PH1wFHQU_unsplash;
+            p2.Location = new Point(539, 381);
+            p2.Name = "p2";
+            p2.Size = new Size(386, 267);
+            p2.SizeMode = PictureBoxSizeMode.Zoom;
+            p2.TabIndex = 11;
+            p2.TabStop = false;
+            p2.WaitOnLoad = true;
             // 
-            // pictureBox3
+            // p3
             // 
-            pictureBox3.Image = Properties.Resources.logan_weaver_lgnwvr_qgZRZI_pKgM_unsplash;
-            pictureBox3.Location = new Point(1102, 381);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(180, 267);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 12;
-            pictureBox3.TabStop = false;
-            pictureBox3.WaitOnLoad = true;
+            p3.Image = Properties.Resources.logan_weaver_lgnwvr_qgZRZI_pKgM_unsplash;
+            p3.Location = new Point(1102, 381);
+            p3.Name = "p3";
+            p3.Size = new Size(180, 267);
+            p3.SizeMode = PictureBoxSizeMode.Zoom;
+            p3.TabIndex = 12;
+            p3.TabStop = false;
+            p3.WaitOnLoad = true;
             // 
             // label7
             // 
@@ -224,38 +225,38 @@
             label9.TabIndex = 15;
             label9.Text = "Cheese Fries";
             // 
-            // pictureBox4
+            // p6
             // 
-            pictureBox4.Image = Properties.Resources.laura_mitulla_7Zlds3gm7NU_unsplash;
-            pictureBox4.Location = new Point(1102, 669);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(181, 265);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 16;
-            pictureBox4.TabStop = false;
-            pictureBox4.WaitOnLoad = true;
+            p6.Image = Properties.Resources.laura_mitulla_7Zlds3gm7NU_unsplash;
+            p6.Location = new Point(1102, 669);
+            p6.Name = "p6";
+            p6.Size = new Size(181, 265);
+            p6.SizeMode = PictureBoxSizeMode.Zoom;
+            p6.TabIndex = 16;
+            p6.TabStop = false;
+            p6.WaitOnLoad = true;
             // 
-            // pictureBox5
+            // p5
             // 
-            pictureBox5.Image = Properties.Resources.andrey_ilkevich_Qvnohn4GyJA_unsplash;
-            pictureBox5.Location = new Point(630, 669);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(181, 265);
-            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox5.TabIndex = 17;
-            pictureBox5.TabStop = false;
-            pictureBox5.WaitOnLoad = true;
+            p5.Image = Properties.Resources.andrey_ilkevich_Qvnohn4GyJA_unsplash;
+            p5.Location = new Point(630, 669);
+            p5.Name = "p5";
+            p5.Size = new Size(181, 265);
+            p5.SizeMode = PictureBoxSizeMode.Zoom;
+            p5.TabIndex = 17;
+            p5.TabStop = false;
+            p5.WaitOnLoad = true;
             // 
-            // pictureBox6
+            // p4
             // 
-            pictureBox6.Image = Properties.Resources.brett_jordan_aKYu_H5pHJY_unsplash;
-            pictureBox6.Location = new Point(108, 669);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(232, 265);
-            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 18;
-            pictureBox6.TabStop = false;
-            pictureBox6.WaitOnLoad = true;
+            p4.Image = Properties.Resources.brett_jordan_aKYu_H5pHJY_unsplash;
+            p4.Location = new Point(108, 669);
+            p4.Name = "p4";
+            p4.Size = new Size(232, 265);
+            p4.SizeMode = PictureBoxSizeMode.Zoom;
+            p4.TabIndex = 18;
+            p4.TabStop = false;
+            p4.WaitOnLoad = true;
             // 
             // label10
             // 
@@ -293,39 +294,39 @@
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(label10);
-            Controls.Add(pictureBox6);
-            Controls.Add(pictureBox5);
-            Controls.Add(pictureBox4);
+            Controls.Add(p4);
+            Controls.Add(p5);
+            Controls.Add(p6);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
+            Controls.Add(p3);
+            Controls.Add(p2);
+            Controls.Add(p1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form";
             Text = "Burger Mansion";
-            ((System.ComponentModel.ISupportInitialize)SSB).EndInit();
-            ((System.ComponentModel.ISupportInitialize)FKB).EndInit();
-            ((System.ComponentModel.ISupportInitialize)FFB).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p9).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)p4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox SSB;
-        private PictureBox FKB;
-        private PictureBox FFB;
+        private PictureBox p7;
+        private PictureBox p8;
+        private PictureBox p9;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -333,15 +334,15 @@
         private Label label5;
         private Label label6;
         private Panel panel1;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
+        private PictureBox p1;
+        private PictureBox p2;
+        private PictureBox p3;
         private Label label7;
         private Label label8;
         private Label label9;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
+        private PictureBox p6;
+        private PictureBox p5;
+        private PictureBox p4;
         private Label label10;
         private Label label11;
         private Label label12;
