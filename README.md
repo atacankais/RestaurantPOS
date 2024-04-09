@@ -1,5 +1,5 @@
 # RestaurantPOS
-
+A user-friendly point of sale software tailored for restaurants, making order management and transactions hassle-free.
 ## Getting Started
 
 ## Built With
